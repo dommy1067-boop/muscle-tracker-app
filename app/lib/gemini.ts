@@ -67,31 +67,3 @@ export async function evaluateMeal(
     return '食事を記録しました！継続して頑張りましょう💪'
   }
 }
-```
-
-**`Ctrl + S` で保存**
-
----
-
-## サーバーを再起動
-
-コマンドプロンプトで:
-```
-Ctrl + C
-Y
-npm run dev
-```
-
-**以下のように表示されればOK:**
-```
-✓ Ready in 2.8s
-- Local:         http://localhost:3000
-```
-
-**「Module not found」エラーが出ていないことを確認！**
-
----
-
-## ブラウザで確認
-```
-http://localhost:3000type 
