@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --no-lint",
+    "build": "next build --no-lint && tsc --noEmit false", 
+  　...
+}
     "start": "next start",
     "lint": "eslint"
   },
