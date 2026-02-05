@@ -67,3 +67,4 @@ export async function evaluateMeal(
     return '食事を記録しました！継続して頑張りましょう💪'
   }
 }
+
