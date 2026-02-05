@@ -1,0 +1,3 @@
+NEXT_PUBLIC_SUPABASE_URL=https://mnlqmbunzizipyymjywe.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_nB4e9Px04ZifRsvlIVVo7w_Q_7RFx2Q
+GEMINI_API_KEY=AIzaSyAWbZFK4q2fAgvwn4dA6t2uU6WiJnnk_TE
