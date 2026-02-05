@@ -1,12 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // これが最強の「エラー無視」設定です
   typescript: {
-    // ビルド時の型エラーを無視して公開を優先する
     ignoreBuildErrors: true,
   },
   eslint: {
-    // ビルド時のチェック（eslint）を無視する
     ignoreDuringBuilds: true,
+  },
+  // 念のため、画像関連のエラーも防ぐ設定を追加
+  images: {
+    unoptimized: true,
   },
 };
 
